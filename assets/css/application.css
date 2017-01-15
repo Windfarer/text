@@ -497,8 +497,12 @@ p {
 }
 
 article img {
-  width: 100%;
-  margin: 0.5em 0;
+  display:block;
+  clear:both;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .small {
