@@ -427,7 +427,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', 'Microsoft Jhenghei', Helvetica, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", Helvetica, sans-serif;
   font-size: 1.8rem;
   font-weight: 300;
   height: 100%;
