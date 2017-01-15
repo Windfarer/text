@@ -438,6 +438,12 @@ body {
      -moz-font-feature-settings: 'kern' 1;
        -o-font-feature-settings: 'kern' 1;
   text-rendering: geometricPrecision;
+  line-height: 1.8em;
+  text-align: justify;
+　text-justify: inter-ideograph;
+　-ms-text-justify: inter-ideograph; /*IE9*/
+　-moz-text-align-last:justify; /*Firefox*/
+　-webkit-text-align-last:justify; /*Chrome*/
 }
 
 ::-moz-selection {
@@ -488,12 +494,6 @@ h6 {
 
 p {
   margin: 1rem 0;
-  line-height: 1.8em;
-  text-align: justify;
-　text-justify: inter-ideograph;
-　-ms-text-justify: inter-ideograph; /*IE9*/
-　-moz-text-align-last:justify; /*Firefox*/
-　-webkit-text-align-last:justify; /*Chrome*/
 }
 
 article img {
