@@ -434,12 +434,6 @@ body {
   max-height: 100%;
   letter-spacing: 0.01rem;
   color: #3a4145;
-  line-height: 1.7em;
-  text-align: justify;
-　text-justify: inter-ideograph;
-　-ms-text-justify: inter-ideograph; /*IE9*/
-　-moz-text-align-last:justify; /*Firefox*/
-　-webkit-text-align-last:justify; /*Chrome*/
   -webkit-font-feature-settings: 'kern' 1;
      -moz-font-feature-settings: 'kern' 1;
        -o-font-feature-settings: 'kern' 1;
@@ -494,7 +488,12 @@ h6 {
 
 p {
   margin: 1rem 0;
-  line-height: 2;
+  line-height: 1.7em;
+  text-align: justify;
+　text-justify: inter-ideograph;
+　-ms-text-justify: inter-ideograph; /*IE9*/
+　-moz-text-align-last:justify; /*Firefox*/
+　-webkit-text-align-last:justify; /*Chrome*/
 }
 
 article img {
