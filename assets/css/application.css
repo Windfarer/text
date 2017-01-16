@@ -428,7 +428,7 @@ html {
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
-  font-size: 1.6rem;
+  font-size: 16px;
   font-weight: 300;
   height: 100%;
   max-height: 100%;
@@ -438,7 +438,7 @@ body {
      -moz-font-feature-settings: 'kern' 1;
        -o-font-feature-settings: 'kern' 1;
   text-rendering: geometricPrecision;
-  line-height: 1.8em;
+  line-height: 1.667em;
   text-align: justify;
 　text-justify: inter-ideograph;
 　-ms-text-justify: inter-ideograph; /*IE9*/
