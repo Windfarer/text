@@ -516,7 +516,7 @@ a {
   font-weight: 400;
   transition: color 0.3s ease;
   text-decoration: none;
-  color: #4a4a4a;
+  color: #3a3a3a;
 }
 
 a:hover {
@@ -526,7 +526,7 @@ a:hover {
 }
 
 .post-excerpt {
-  color: #777777;
+  color: #5a5a5a;
 }
 
 a.post-excerpt {
@@ -964,11 +964,5 @@ footer {
 article a{
   padding-bottom: 3px;
   color: #111111;
-  border-bottom: 1px solid #3a4145;
-}
-
-article a{
-  padding-bottom: 3px;
-  color: #111111;
-  border-bottom: 1px solid #3a4145;
+  border-bottom: 1px solid #3a3a3a;
 }
