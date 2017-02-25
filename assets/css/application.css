@@ -446,12 +446,19 @@ body {
 　-webkit-text-align-last:justify; /*Chrome*/
 }
 
+::-webkit-selection {
+    background:#d3d3d3;
+    color:#555;
+}
+
 ::-moz-selection {
-  background: #d6edff;
+    background:#d3d3d3;
+    color:#555;
 }
 
 ::selection {
-  background: #d6edff;
+    background:#d3d3d3;
+    color:#555;
 }
 
 /* TYPOGRAPHY */
