@@ -20,7 +20,9 @@
         <div class="blog-description">{{@blog.description}}</div>
         {{navigation}}
       </header>
+      <div class="main">
       {{{body}}}
+      </div>
       <footer class="center">
         <p class="small"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</p>
         <p class="small">Powered by <a href="https://ghost.org" target="_blank">Ghost</a> | Theme - <a href="https://github.com/Windfarer/text" target="_blank">text</a></p>
@@ -28,7 +30,7 @@
     </div>
     <script src="https://js.cdnbee.com/libs/pangu/3.3.0/pangu.min.js"></script>
     <script>
-	    pangu.spacingPage();
+	    pangu.spacingElementByClassName('main');
     </script>
     <script type="text/javascript" src="https://js.cdnbee.com/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="https://js.cdnbee.com/libs/highlight.js/9.9.0/highlight.min.js"></script>
