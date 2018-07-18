@@ -1,12 +1,20 @@
 # Text for Ghost
 
 ![Ghost version](https://img.shields.io/badge/ghost-v0.8.0-blue.svg?style=flat-square)
+![Ghost version](https://img.shields.io/badge/ghost-v1.0.0-blue.svg?style=flat-square)
+[![GitHub forks](https://img.shields.io/github/forks/imgarylai/text.svg?style=flat-square)](https://github.com/imgarylai/text/network)
+[![GitHub stars](https://img.shields.io/github/stars/imgarylai/text.svg?style=flat-square)](https://github.com/imgarylai/text/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/imgarylai/text.svg?style=flat-square)](https://github.com/imgarylai/text/issues)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/imgarylai/text/master/LICENSE.md)
 
 ## Introduction
 
-This theme is for [Ghost](https://ghost.org), a blogging platform.
+This theme is for [Ghost](https://ghost.org), a blogging platform. It supports ghost version greater than 1.0.0. 
+
+> For ghost <= v0.8.x, please use [verstion 1.3.0](https://github.com/imgarylai/text/tree/1.3.0)
 
 I focus on things below:
+
 - Reader first: clear readability.
 - A responsive theme along with less CSS code and simple HTML construction.
 - Less animation, no font or image icon.  
@@ -26,7 +34,11 @@ Live theme is use my blog: [blog.gary-lai.com](https://blog.gary-lai.com)
 - Code highlighting via [highlightjs](https://highlightjs.org/)  
   - Line numbers support (Optional)
 - Google Analytics (Optional)
-- Disqus(Optional)
+- Disqus(Optional): comments and comments count, (Thanks [@Windfarer](https://github.com/Windfarer))
+
+### Optional
+
+- subscriber 
 
 ## Installation
 
