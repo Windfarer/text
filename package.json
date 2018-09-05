@@ -23,6 +23,6 @@
   "license": "MIT",
   "bugs": "https://github.com/imgarylai/text/issues",
   "config": {
-    "posts_per_page": 25
+    "posts_per_page": 5
   }
 }
