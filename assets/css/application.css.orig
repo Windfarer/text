@@ -506,7 +506,6 @@ p {
 }
 
 article img {
-<<<<<<< .merge_file_iCllUu
   display:block;
   clear:both;
   margin-left: auto;
@@ -514,11 +513,6 @@ article img {
   margin-top: 1em;
   margin-bottom: 1em;
   max-width: 100%;
-=======
-  display: block;
-  width: 100%;
-  margin: 0.5em 0;
->>>>>>> .merge_file_Hz5OZo
 }
 
 .small {
