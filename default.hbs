@@ -16,15 +16,15 @@
     <div class="container">
       {{!-- The big featured header --}}
       <header class="center">
-        <div class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></div>
-        <div class="blog-description">{{@blog.description}}</div>
+        <div class="blog-title"><a href="{{@site.url}}">{{@site.title}}</a></div>
+        <div class="blog-description">{{@site.description}}</div>
         {{navigation}}
       </header>
       <div class="main">
       {{{body}}}
       </div>
       <footer class="center">
-        <p class="small"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</p>
+        <p class="small"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}</p>
         <p class="small">Powered by <a href="https://ghost.org" target="_blank">Ghost</a> | Theme - <a href="https://github.com/Windfarer/text" target="_blank">text</a></p>
       </footer>
     </div>

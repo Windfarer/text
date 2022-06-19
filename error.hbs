@@ -20,13 +20,13 @@
 <body>
   <div class="container">
     <header class="center">
-      <div class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></div>
-      <div class="blog-description">{{@blog.description}}</div>
+      <div class="blog-title"><a href="{{@site.url}}">{{@site.title}}</a></div>
+      <div class="blog-description">{{@site.description}}</div>
     </header>
     <div class="error-container center">
       <h2>😶{{code}}😶</h2>
       <h2>{{message}}</h2>
-      <a href="{{@blog.url}}" class="small">← back</a>
+      <a href="{{@site.url}}" class="small">← back</a>
       {{#if stack}}
       <h3>Stack Trace</h3>
       <p><strong>{{message}}</strong></p>
@@ -41,7 +41,7 @@
       {{/if}}
     </div>
     <footer class="center">
-      <p class="small"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</p>
+      <p class="small"><a href="{{@site.url}}">{{@site.title}}</a> &copy; {{date format="YYYY"}}</p>
       <p class="small">Powered by <a href="https://ghost.org" target="_blank">Ghost</a> | Theme - <a href="https://github.com/Windfarer/text" target="_blank">text</a></p>
     </footer>
   </div>
