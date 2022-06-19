@@ -7,7 +7,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>{{code}} — {{message}}</title>
+  <title>{{statusCode}} — {{message}}</title>
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
@@ -24,7 +24,7 @@
       <div class="blog-description">{{@site.description}}</div>
     </header>
     <div class="error-container center">
-      <h2>😶{{code}}😶</h2>
+      <h2>😶{{statusCode}}😶</h2>
       <h2>{{message}}</h2>
       <a href="{{@site.url}}" class="small">← back</a>
       {{#if stack}}
