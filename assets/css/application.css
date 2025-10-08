@@ -923,6 +923,10 @@ pre {
   background: #f8f8f8;
 }
 
+pre > code {
+  display: block;
+}
+
 .hljs-line-numbers {
   font-size: 1.2rem;
   line-height: 1.5;
